@@ -11,6 +11,9 @@
 		C6A4AA40297F163E00CA5D5D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A4AA3F297F163E00CA5D5D /* ContentView.swift */; };
 		C6A4AA42297F163E00CA5D5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6A4AA41297F163E00CA5D5D /* Assets.xcassets */; };
 		C6A4AA45297F163E00CA5D5D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6A4AA44297F163E00CA5D5D /* Preview Assets.xcassets */; };
+		C6A4AA4F297F175000CA5D5D /* RawCardSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A4AA4C297F175000CA5D5D /* RawCardSymbol.swift */; };
+		C6A4AA50297F175000CA5D5D /* RawCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A4AA4D297F175000CA5D5D /* RawCard.swift */; };
+		C6A4AA51297F175000CA5D5D /* RawCardSuit.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A4AA4E297F175000CA5D5D /* RawCardSuit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		C6A4AA41297F163E00CA5D5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C6A4AA44297F163E00CA5D5D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C6A4AA46297F163E00CA5D5D /* Friendly_Holdem_for_mac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Friendly_Holdem_for_mac.entitlements; sourceTree = "<group>"; };
+		C6A4AA4C297F175000CA5D5D /* RawCardSymbol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RawCardSymbol.swift; sourceTree = "<group>"; };
+		C6A4AA4D297F175000CA5D5D /* RawCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RawCard.swift; sourceTree = "<group>"; };
+		C6A4AA4E297F175000CA5D5D /* RawCardSuit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RawCardSuit.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,9 @@
 			children = (
 				C6A4AA3D297F163E00CA5D5D /* Friendly_Holdem_for_macApp.swift */,
 				C6A4AA3F297F163E00CA5D5D /* ContentView.swift */,
+				C6A4AA4D297F175000CA5D5D /* RawCard.swift */,
+				C6A4AA4E297F175000CA5D5D /* RawCardSuit.swift */,
+				C6A4AA4C297F175000CA5D5D /* RawCardSymbol.swift */,
 				C6A4AA41297F163E00CA5D5D /* Assets.xcassets */,
 				C6A4AA46297F163E00CA5D5D /* Friendly_Holdem_for_mac.entitlements */,
 				C6A4AA43297F163E00CA5D5D /* Preview Content */,
@@ -139,8 +148,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6A4AA50297F175000CA5D5D /* RawCard.swift in Sources */,
 				C6A4AA40297F163E00CA5D5D /* ContentView.swift in Sources */,
 				C6A4AA3E297F163E00CA5D5D /* Friendly_Holdem_for_macApp.swift in Sources */,
+				C6A4AA51297F175000CA5D5D /* RawCardSuit.swift in Sources */,
+				C6A4AA4F297F175000CA5D5D /* RawCardSymbol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
