@@ -18,7 +18,7 @@ struct WelcomeView: View {
 
     var whenClickedContinue: (() -> Void)?
 #if os(iOS)
-    static let bg1: Color = Color(uiColor: .secondarySystemBackground.blendMed( with: .gray))
+    static let bg1: Color = Color.secondarySystemBackground.blendMed( with: .gray)
     #else
     static let bg1: Color = Color( nsColor: .windowBackgroundColor)
     #endif
@@ -114,17 +114,4 @@ class MotionManager: ObservableObject {
 } //cl
 #endif
 
-#if os(iOS)
-extension UIColor {
-    func blendMed(with secondColor: UIColor) -> UIColor {
-        var (r1, g1, b1, a1) = (CGFloat(0), CGFloat(0), CGFloat(0), CGFloat(0))
-        var (r2, g2, b2, a2) = (CGFloat(0), CGFloat(0), CGFloat(0), CGFloat(0))
-        guard getRed(&r1, green: &g1, blue: &b1, alpha: &a1),
-              secondColor.getRed(&r2, green: &g2, blue: &b2, alpha: &a2) else {
-            return self
-        } //gua
-        return UIColor( red: (r1 + r2) / 2, green: (g1 + g2) / 2, blue: (b1 + b2) / 2, alpha: (a1 + a2) / 2)
-    } //func
-} //ext
-#endif
 
