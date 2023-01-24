@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C6328E3D297FCE000064E4A3 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6328E3C297FCE000064E4A3 /* WelcomeView.swift */; };
 		C6A4AA3E297F163E00CA5D5D /* Friendly_Holdem_for_macApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A4AA3D297F163E00CA5D5D /* Friendly_Holdem_for_macApp.swift */; };
 		C6A4AA40297F163E00CA5D5D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A4AA3F297F163E00CA5D5D /* ContentView.swift */; };
 		C6A4AA42297F163E00CA5D5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6A4AA41297F163E00CA5D5D /* Assets.xcassets */; };
@@ -72,6 +73,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C6328E3C297FCE000064E4A3 /* WelcomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		C6A4AA3A297F163E00CA5D5D /* Friendly Holdem for mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Friendly Holdem for mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6A4AA3D297F163E00CA5D5D /* Friendly_Holdem_for_macApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friendly_Holdem_for_macApp.swift; sourceTree = "<group>"; };
 		C6A4AA3F297F163E00CA5D5D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -199,6 +201,7 @@
 			children = (
 				C6AEA390297F29A20032BB3D /* DebugView.swift */,
 				C6A4AA3F297F163E00CA5D5D /* ContentView.swift */,
+				C6328E3C297FCE000064E4A3 /* WelcomeView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -421,6 +424,7 @@
 				C6AEA324297F25690032BB3D /* GameCtlExt_Showdown.swift in Sources */,
 				C6AEA34D297F271B0032BB3D /* CardStack.swift in Sources */,
 				C6A4AA4F297F175000CA5D5D /* RawCardSymbol.swift in Sources */,
+				C6328E3D297FCE000064E4A3 /* WelcomeView.swift in Sources */,
 				C6AEA349297F271B0032BB3D /* PokerInterpretationHand.swift in Sources */,
 				C6AEA38B297F27B90032BB3D /* OrdinalNumberFormatterExt.swift in Sources */,
 				C6AEA327297F25690032BB3D /* GameCtlExt_Agreeing.swift in Sources */,
