@@ -78,8 +78,10 @@ struct ExistingMatchChooserView: View {
                     } //se
                 } //if
             } //ls
+            .frame(minWidth: 200, idealWidth: 400, maxWidth: .infinity, minHeight: 200, idealHeight: 600, maxHeight: .infinity, alignment: .topLeading)
             //.accessibilityValue("lalalala")
         } //main vs
+        .frame(minWidth: 300, idealWidth: 500, maxWidth: 800, minHeight: 400, idealHeight: 800, maxHeight: 1200, alignment: .center)
         .onAppear(perform: {
             DispatchQueue.main.relativeAsync(after: appearAnimDuration) {
                 self.TitleAxFocused = true

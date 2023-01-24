@@ -4,11 +4,7 @@
 <dict>
 	<key>com.apple.developer.game-center</key>
 	<true/>
-	<key>com.apple.security.app-sandbox</key>
-	<true/>
-	<key>com.apple.security.files.user-selected.read-only</key>
-	<true/>
-	<key>com.apple.security.network.client</key>
+	<key>com.apple.security.personal-information.location</key>
 	<true/>
 </dict>
 </plist>
