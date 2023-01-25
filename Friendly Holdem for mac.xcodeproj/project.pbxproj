@@ -83,6 +83,10 @@
 		C6AEA38C297F27B90032BB3D /* RangeTrim.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AEA37B297F27B90032BB3D /* RangeTrim.swift */; };
 		C6AEA38F297F29060032BB3D /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = C6AEA38E297F29060032BB3D /* Algorithms */; };
 		C6AEA391297F29A20032BB3D /* DebugView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AEA390297F29A20032BB3D /* DebugView.swift */; };
+		C6DC06C62981AD85003523A0 /* Friendly_HoldemApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DC06C52981AD85003523A0 /* Friendly_HoldemApp.swift */; };
+		C6DC06C82981AD85003523A0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DC06C72981AD85003523A0 /* ContentView.swift */; };
+		C6DC06CA2981AD86003523A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6DC06C92981AD86003523A0 /* Assets.xcassets */; };
+		C6DC06CD2981AD86003523A0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6DC06CC2981AD86003523A0 /* Preview Assets.xcassets */; };
 		C6DEC3F9297FDDC600462E94 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DEC3F8297FDDC600462E94 /* ContentView.swift */; };
 		C6DEC3FB297FDE3E00462E94 /* Stage2SetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DEC3FA297FDE3E00462E94 /* Stage2SetupView.swift */; };
 		C6DEC3FD297FDE8000462E94 /* Stage3MainMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DEC3FC297FDE8000462E94 /* Stage3MainMenuView.swift */; };
@@ -186,6 +190,11 @@
 		C6AEA37A297F27B90032BB3D /* OrdinalNumberFormatterExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrdinalNumberFormatterExt.swift; sourceTree = "<group>"; };
 		C6AEA37B297F27B90032BB3D /* RangeTrim.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RangeTrim.swift; sourceTree = "<group>"; };
 		C6AEA390297F29A20032BB3D /* DebugView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DebugView.swift; sourceTree = "<group>"; };
+		C6DC06C32981AD85003523A0 /* Friendly Holdem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Friendly Holdem.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6DC06C52981AD85003523A0 /* Friendly_HoldemApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friendly_HoldemApp.swift; sourceTree = "<group>"; };
+		C6DC06C72981AD85003523A0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C6DC06C92981AD86003523A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C6DC06CC2981AD86003523A0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C6DEC3F8297FDDC600462E94 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C6DEC3FA297FDE3E00462E94 /* Stage2SetupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stage2SetupView.swift; sourceTree = "<group>"; };
 		C6DEC3FC297FDE8000462E94 /* Stage3MainMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stage3MainMenuView.swift; sourceTree = "<group>"; };
@@ -220,6 +229,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C6DC06C02981AD85003523A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -227,6 +243,7 @@
 			isa = PBXGroup;
 			children = (
 				C6A4AA3C297F163E00CA5D5D /* Friendly Holdem for mac */,
+				C6DC06C42981AD85003523A0 /* Friendly Holdem */,
 				C6A4AA3B297F163E00CA5D5D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -235,6 +252,7 @@
 			isa = PBXGroup;
 			children = (
 				C6A4AA3A297F163E00CA5D5D /* Friendly Holdem for mac.app */,
+				C6DC06C32981AD85003523A0 /* Friendly Holdem.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -401,6 +419,25 @@
 			path = PokerStuff;
 			sourceTree = "<group>";
 		};
+		C6DC06C42981AD85003523A0 /* Friendly Holdem */ = {
+			isa = PBXGroup;
+			children = (
+				C6DC06C52981AD85003523A0 /* Friendly_HoldemApp.swift */,
+				C6DC06C72981AD85003523A0 /* ContentView.swift */,
+				C6DC06C92981AD86003523A0 /* Assets.xcassets */,
+				C6DC06CB2981AD86003523A0 /* Preview Content */,
+			);
+			path = "Friendly Holdem";
+			sourceTree = "<group>";
+		};
+		C6DC06CB2981AD86003523A0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C6DC06CC2981AD86003523A0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -424,6 +461,23 @@
 			productReference = C6A4AA3A297F163E00CA5D5D /* Friendly Holdem for mac.app */;
 			productType = "com.apple.product-type.application";
 		};
+		C6DC06C22981AD85003523A0 /* Friendly Holdem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6DC06D02981AD86003523A0 /* Build configuration list for PBXNativeTarget "Friendly Holdem" */;
+			buildPhases = (
+				C6DC06BF2981AD85003523A0 /* Sources */,
+				C6DC06C02981AD85003523A0 /* Frameworks */,
+				C6DC06C12981AD85003523A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Friendly Holdem";
+			productName = "Friendly Holdem";
+			productReference = C6DC06C32981AD85003523A0 /* Friendly Holdem.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -435,6 +489,9 @@
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
 					C6A4AA39297F163E00CA5D5D = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					C6DC06C22981AD85003523A0 = {
 						CreatedOnToolsVersion = 14.2;
 					};
 				};
@@ -456,6 +513,7 @@
 			projectRoot = "";
 			targets = (
 				C6A4AA39297F163E00CA5D5D /* Friendly Holdem for mac */,
+				C6DC06C22981AD85003523A0 /* Friendly Holdem */,
 			);
 		};
 /* End PBXProject section */
@@ -467,6 +525,15 @@
 			files = (
 				C6A4AA45297F163E00CA5D5D /* Preview Assets.xcassets in Resources */,
 				C6A4AA42297F163E00CA5D5D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6DC06C12981AD85003523A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6DC06CD2981AD86003523A0 /* Preview Assets.xcassets in Resources */,
+				C6DC06CA2981AD86003523A0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -573,6 +640,15 @@
 				C6AEA38B297F27B90032BB3D /* OrdinalNumberFormatterExt.swift in Sources */,
 				C6AEA327297F25690032BB3D /* GameCtlExt_Agreeing.swift in Sources */,
 				C6AEA387297F27B90032BB3D /* UITurnBasedMatch.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6DC06BF2981AD85003523A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6DC06C82981AD85003523A0 /* ContentView.swift in Sources */,
+				C6DC06C62981AD85003523A0 /* Friendly_HoldemApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -746,6 +822,69 @@
 			};
 			name = Release;
 		};
+		C6DC06CE2981AD86003523A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Friendly Holdem/Preview Content\"";
+				DEVELOPMENT_TEAM = 2222CRHQ48;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saio674.FriendlyHoldem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C6DC06CF2981AD86003523A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Friendly Holdem/Preview Content\"";
+				DEVELOPMENT_TEAM = 2222CRHQ48;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saio674.FriendlyHoldem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -763,6 +902,15 @@
 			buildConfigurations = (
 				C6A4AA4A297F163E00CA5D5D /* Debug */,
 				C6A4AA4B297F163E00CA5D5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6DC06D02981AD86003523A0 /* Build configuration list for PBXNativeTarget "Friendly Holdem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6DC06CE2981AD86003523A0 /* Debug */,
+				C6DC06CF2981AD86003523A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
