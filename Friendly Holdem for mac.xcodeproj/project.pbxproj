@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		C6328E3D297FCE000064E4A3 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6328E3C297FCE000064E4A3 /* WelcomeView.swift */; };
+		C69A8ED72981B556003A6B40 /* sfx2 in Resources */ = {isa = PBXBuildFile; fileRef = C69A8ED62981B556003A6B40 /* sfx2 */; };
+		C69A8EDA2981BC48003A6B40 /* sfx2 in Resources */ = {isa = PBXBuildFile; fileRef = C69A8ED62981B556003A6B40 /* sfx2 */; };
 		C6A24FD1297FEB2C00F65949 /* ParticipantLocalization copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A24FD0297FEB2C00F65949 /* ParticipantLocalization copy.swift */; };
 		C6A24FD4297FEB9F00F65949 /* VariantAddForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A24FD2297FEB9F00F65949 /* VariantAddForm.swift */; };
 		C6A24FD5297FEB9F00F65949 /* VariantLister.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A24FD3297FEB9F00F65949 /* VariantLister.swift */; };
@@ -210,6 +212,7 @@
 
 /* Begin PBXFileReference section */
 		C6328E3C297FCE000064E4A3 /* WelcomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		C69A8ED62981B556003A6B40 /* sfx2 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = sfx2; sourceTree = "<group>"; };
 		C6A24FD0297FEB2C00F65949 /* ParticipantLocalization copy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ParticipantLocalization copy.swift"; sourceTree = "<group>"; };
 		C6A24FD2297FEB9F00F65949 /* VariantAddForm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VariantAddForm.swift; sourceTree = "<group>"; };
 		C6A24FD3297FEB9F00F65949 /* VariantLister.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VariantLister.swift; sourceTree = "<group>"; };
@@ -365,6 +368,7 @@
 				C6A4AA4D297F175000CA5D5D /* RawCard.swift */,
 				C6A4AA4E297F175000CA5D5D /* RawCardSuit.swift */,
 				C6A4AA4C297F175000CA5D5D /* RawCardSymbol.swift */,
+				C69A8ED62981B556003A6B40 /* sfx2 */,
 				C6AEA32C297F26080032BB3D /* PokerStuff */,
 				C6AEA32B297F25F20032BB3D /* Localizers */,
 				C6AEA32A297F25E50032BB3D /* Generals */,
@@ -633,6 +637,7 @@
 			files = (
 				C6A4AA45297F163E00CA5D5D /* Preview Assets.xcassets in Resources */,
 				C6A4AA42297F163E00CA5D5D /* Assets.xcassets in Resources */,
+				C69A8ED72981B556003A6B40 /* sfx2 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -642,6 +647,7 @@
 			files = (
 				C6DC06CD2981AD86003523A0 /* Preview Assets.xcassets in Resources */,
 				C6DC06CA2981AD86003523A0 /* Assets.xcassets in Resources */,
+				C69A8EDA2981BC48003A6B40 /* sfx2 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
