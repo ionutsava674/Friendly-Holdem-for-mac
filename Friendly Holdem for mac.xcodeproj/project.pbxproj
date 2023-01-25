@@ -84,9 +84,105 @@
 		C6AEA38F297F29060032BB3D /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = C6AEA38E297F29060032BB3D /* Algorithms */; };
 		C6AEA391297F29A20032BB3D /* DebugView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AEA390297F29A20032BB3D /* DebugView.swift */; };
 		C6DC06C62981AD85003523A0 /* Friendly_HoldemApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DC06C52981AD85003523A0 /* Friendly_HoldemApp.swift */; };
-		C6DC06C82981AD85003523A0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DC06C72981AD85003523A0 /* ContentView.swift */; };
 		C6DC06CA2981AD86003523A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6DC06C92981AD86003523A0 /* Assets.xcassets */; };
 		C6DC06CD2981AD86003523A0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6DC06CC2981AD86003523A0 /* Preview Assets.xcassets */; };
+		C6DC06D12981AEDF003523A0 /* PreferencesClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AEA32D297F26380032BB3D /* PreferencesClass.swift */; };
+		C6DC06D22981AF0A003523A0 /* GameTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AEA31F297F25690032BB3D /* GameTransition.swift */; };
+		C6DC06D32981AF0A003523A0 /* GameCtlExt_Showdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AEA31E297F25690032BB3D /* GameCtlExt_Showdown.swift */; };
+		C6DC06D42981AF0A003523A0 /* GameCtlExt_Quit.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AEA320297F25690032BB3D /* GameCtlExt_Quit.swift */; };
+		C6DC06D52981AF0A003523A0 /* GCHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AEA31B297F25350032BB3D /* GCHelper.swift */; };
+		C6DC06D62981AF0A003523A0 /* gameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AEA322297F25690032BB3D /* gameController.swift */; };
+		C6DC06D72981AF0A003523A0 /* GameCtlExt_Agreeing.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AEA321297F25690032BB3D /* GameCtlExt_Agreeing.swift */; };
+		C6DC06D82981AF0A003523A0 /* GameCtlExt_newAsync.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AEA31D297F25690032BB3D /* GameCtlExt_newAsync.swift */; };
+		C6DC06D92981AF2D003523A0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DEC3F8297FDDC600462E94 /* ContentView.swift */; };
+		C6DC06DA2981AF2D003523A0 /* VariantAddForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A24FD2297FEB9F00F65949 /* VariantAddForm.swift */; };
+		C6DC06DB2981AF2D003523A0 /* FinalShowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DEC41E297FE94400462E94 /* FinalShowView.swift */; };
+		C6DC06DC2981AF2D003523A0 /* gameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DEC40C297FE55700462E94 /* gameView.swift */; };
+		C6DC06DD2981AF2D003523A0 /* HowToBegin.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DEC402297FE19F00462E94 /* HowToBegin.swift */; };
+		C6DC06DE2981AF2D003523A0 /* AgreeingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DEC40E297FE59400462E94 /* AgreeingView.swift */; };
+		C6DC06DF2981AF2D003523A0 /* CardStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A24FDE298000E200F65949 /* CardStackView.swift */; };
+		C6DC06E02981AF2D003523A0 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A24FD6297FEBE700F65949 /* CardView.swift */; };
+		C6DC06E12981AF2D003523A0 /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DEC3FE297FDEDC00462E94 /* ContactView.swift */; };
+		C6DC06E22981AF2D003523A0 /* OOGTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DEC41C297FE90E00462E94 /* OOGTableView.swift */; };
+		C6DC06E32981AF2D003523A0 /* Stage2SetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DEC3FA297FDE3E00462E94 /* Stage2SetupView.swift */; };
+		C6DC06E42981AF2D003523A0 /* InactiveActionMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A24FE62980021200F65949 /* InactiveActionMenuView.swift */; };
+		C6DC06E52981AF2D003523A0 /* PotInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A24FEA2980027B00F65949 /* PotInfoView.swift */; };
+		C6DC06E62981AF2D003523A0 /* PokerTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DEC414297FE82700462E94 /* PokerTableView.swift */; };
+		C6DC06E72981AF2D003523A0 /* LastActionLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A24FE22980015E00F65949 /* LastActionLine.swift */; };
+		C6DC06E82981AF2D003523A0 /* Stage3MainMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DEC3FC297FDE8000462E94 /* Stage3MainMenuView.swift */; };
+		C6DC06E92981AF2D003523A0 /* ShowdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DEC416297FE88D00462E94 /* ShowdownView.swift */; };
+		C6DC06EA2981AF2D003523A0 /* MenuAndMatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DEC404297FE44100462E94 /* MenuAndMatchView.swift */; };
+		C6DC06EB2981AF2D003523A0 /* JoiningTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DEC41A297FE8D500462E94 /* JoiningTableView.swift */; };
+		C6DC06EC2981AF2D003523A0 /* LogInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A24FE82980024B00F65949 /* LogInfoView.swift */; };
+		C6DC06ED2981AF2D003523A0 /* OtherPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A24FDC298000BC00F65949 /* OtherPlayerView.swift */; };
+		C6DC06EE2981AF2D003523A0 /* ExistingMatchChooserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DEC40A297FE51F00462E94 /* ExistingMatchChooserView.swift */; };
+		C6DC06EF2981AF2D003523A0 /* VariantLister.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A24FD3297FEB9F00F65949 /* VariantLister.swift */; };
+		C6DC06F02981AF2D003523A0 /* CardStackIDlessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DEC420297FE99800462E94 /* CardStackIDlessView.swift */; };
+		C6DC06F12981AF2D003523A0 /* ShowdownItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DEC418297FE8A900462E94 /* ShowdownItem.swift */; };
+		C6DC06F22981AF2D003523A0 /* MatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DEC408297FE4CF00462E94 /* MatchView.swift */; };
+		C6DC06F32981AF2D003523A0 /* AgreeingInactiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DEC412297FE7A900462E94 /* AgreeingInactiveView.swift */; };
+		C6DC06F42981AF2D003523A0 /* MatchMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DEC400297FE15100462E94 /* MatchMenuView.swift */; };
+		C6DC06F52981AF2D003523A0 /* MatchDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DEC410297FE5C100462E94 /* MatchDetailsView.swift */; };
+		C6DC06F62981AF2D003523A0 /* NeedToAcknowledgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DEC424297FEA2E00462E94 /* NeedToAcknowledgeView.swift */; };
+		C6DC06F72981AF2D003523A0 /* ActiveActionMenu2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A24FE4298001F300F65949 /* ActiveActionMenu2.swift */; };
+		C6DC06F82981AF2D003523A0 /* AgreeingStage1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DEC422297FE9E800462E94 /* AgreeingStage1View.swift */; };
+		C6DC06F92981AF2D003523A0 /* MatchInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DEC406297FE49600462E94 /* MatchInfoView.swift */; };
+		C6DC06FA2981AF2D003523A0 /* DebugView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AEA390297F29A20032BB3D /* DebugView.swift */; };
+		C6DC06FB2981AF2D003523A0 /* BetRaiseAmountPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A24FDA2980003100F65949 /* BetRaiseAmountPicker.swift */; };
+		C6DC06FC2981AF2D003523A0 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6328E3C297FCE000064E4A3 /* WelcomeView.swift */; };
+		C6DC06FD2981AF4A003523A0 /* RawCardSuit.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A4AA4E297F175000CA5D5D /* RawCardSuit.swift */; };
+		C6DC06FE2981AF4A003523A0 /* RawCardSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A4AA4C297F175000CA5D5D /* RawCardSymbol.swift */; };
+		C6DC06FF2981AF4A003523A0 /* RawCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A4AA4D297F175000CA5D5D /* RawCard.swift */; };
+		C6DC07002981AF67003523A0 /* PokerCardInterpretation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AEA33C297F271B0032BB3D /* PokerCardInterpretation.swift */; };
+		C6DC07012981AF67003523A0 /* GameStartParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AEA340297F271B0032BB3D /* GameStartParameters.swift */; };
+		C6DC07022981AF67003523A0 /* PokerGameShowdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AEA343297F271B0032BB3D /* PokerGameShowdown.swift */; };
+		C6DC07032981AF67003523A0 /* GameLogEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AEA33A297F271B0032BB3D /* GameLogEntry.swift */; };
+		C6DC07042981AF67003523A0 /* PokerRules.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AEA342297F271B0032BB3D /* PokerRules.swift */; };
+		C6DC07052981AF67003523A0 /* GameEndStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AEA33F297F271B0032BB3D /* GameEndStatus.swift */; };
+		C6DC07062981AF67003523A0 /* PokerPot.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AEA341297F271B0032BB3D /* PokerPot.swift */; };
+		C6DC07072981AF67003523A0 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AEA333297F271B0032BB3D /* Card.swift */; };
+		C6DC07082981AF67003523A0 /* PokerGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AEA336297F271B0032BB3D /* PokerGame.swift */; };
+		C6DC07092981AF67003523A0 /* gameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AEA335297F271B0032BB3D /* gameState.swift */; };
+		C6DC070A2981AF67003523A0 /* PokerGameAgreeing.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AEA334297F271B0032BB3D /* PokerGameAgreeing.swift */; };
+		C6DC070B2981AF67003523A0 /* PokerPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AEA344297F271B0032BB3D /* PokerPlayer.swift */; };
+		C6DC070C2981AF67003523A0 /* CardStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AEA33B297F271B0032BB3D /* CardStack.swift */; };
+		C6DC070D2981AF67003523A0 /* InterpretationHandExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AEA33D297F271B0032BB3D /* InterpretationHandExtension.swift */; };
+		C6DC070E2981AF67003523A0 /* PokerInterpretationHand.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AEA337297F271B0032BB3D /* PokerInterpretationHand.swift */; };
+		C6DC070F2981AF67003523A0 /* DealShowdownStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AEA338297F271B0032BB3D /* DealShowdownStatus.swift */; };
+		C6DC07102981AF67003523A0 /* PokerHandRank.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AEA339297F271B0032BB3D /* PokerHandRank.swift */; };
+		C6DC07112981AF67003523A0 /* PokerPlayerAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AEA33E297F271B0032BB3D /* PokerPlayerAction.swift */; };
+		C6DC07122981AF78003523A0 /* ParticipantLocalization.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AEA359297F27400032BB3D /* ParticipantLocalization.swift */; };
+		C6DC07132981AF78003523A0 /* ParticipantLocalization copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A24FD0297FEB2C00F65949 /* ParticipantLocalization copy.swift */; };
+		C6DC07142981AF78003523A0 /* MatchLocalizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AEA358297F27400032BB3D /* MatchLocalizer.swift */; };
+		C6DC07152981AF78003523A0 /* GameLocalizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AEA357297F27400032BB3D /* GameLocalizer.swift */; };
+		C6DC07162981AF97003523A0 /* SwappableBiStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AEA35F297F27750032BB3D /* SwappableBiStack.swift */; };
+		C6DC07172981AF97003523A0 /* MinWidthContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AEA361297F27750032BB3D /* MinWidthContainer.swift */; };
+		C6DC07182981AF97003523A0 /* PaddedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AEA35D297F27750032BB3D /* PaddedButton.swift */; };
+		C6DC07192981AF97003523A0 /* groupedAsync.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AEA35E297F27750032BB3D /* groupedAsync.swift */; };
+		C6DC071A2981AF97003523A0 /* JumpingTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A24FE02980013100F65949 /* JumpingTextView.swift */; };
+		C6DC071B2981AF97003523A0 /* InterText.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AEA363297F27750032BB3D /* InterText.swift */; };
+		C6DC071C2981AF97003523A0 /* InputQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AEA360297F27750032BB3D /* InputQuery.swift */; };
+		C6DC071D2981AF97003523A0 /* soundFX.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AEA362297F27750032BB3D /* soundFX.swift */; };
+		C6DC071E2981AFC7003523A0 /* UITurnBasedMatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AEA376297F27B90032BB3D /* UITurnBasedMatch.swift */; };
+		C6DC071F2981AFC7003523A0 /* CustomAlignments.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AEA374297F27B90032BB3D /* CustomAlignments.swift */; };
+		C6DC07202981AFC7003523A0 /* TaskSleepSeconds.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AEA375297F27B90032BB3D /* TaskSleepSeconds.swift */; };
+		C6DC07212981AFC7003523A0 /* OrdinalNumberFormatterExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AEA37A297F27B90032BB3D /* OrdinalNumberFormatterExt.swift */; };
+		C6DC07222981AFC7003523A0 /* MatchFindExchange.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AEA36F297F27B90032BB3D /* MatchFindExchange.swift */; };
+		C6DC07232981AFC7003523A0 /* RelativeDateFormatterExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AEA371297F27B90032BB3D /* RelativeDateFormatterExtension.swift */; };
+		C6DC07242981AFC7003523A0 /* Color_UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A24FD8297FF7A300F65949 /* Color_UIColor.swift */; };
+		C6DC07252981AFC7003523A0 /* ArrayNextOthers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AEA372297F27B90032BB3D /* ArrayNextOthers.swift */; };
+		C6DC07262981AFC7003523A0 /* RangeTrim.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AEA37B297F27B90032BB3D /* RangeTrim.swift */; };
+		C6DC07272981AFC7003523A0 /* ViewBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AEA377297F27B90032BB3D /* ViewBorder.swift */; };
+		C6DC07282981AFC7003523A0 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AEA379297F27B90032BB3D /* StringExtension.swift */; };
+		C6DC07292981AFC7003523A0 /* ConditionalAXAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AEA36D297F27B90032BB3D /* ConditionalAXAction.swift */; };
+		C6DC072A2981AFC7003523A0 /* blurYourself.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AEA36B297F27B90032BB3D /* blurYourself.swift */; };
+		C6DC072B2981AFC7003523A0 /* BlurryBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AEA36C297F27B90032BB3D /* BlurryBackground.swift */; };
+		C6DC072C2981AFC7003523A0 /* DispatchQueueRelativeAsync.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AEA373297F27B90032BB3D /* DispatchQueueRelativeAsync.swift */; };
+		C6DC072D2981AFC7003523A0 /* ParticipantArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AEA378297F27B90032BB3D /* ParticipantArrayExtension.swift */; };
+		C6DC072E2981AFC7003523A0 /* MatchExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AEA36E297F27B90032BB3D /* MatchExtension.swift */; };
+		C6DC072F2981AFC7003523A0 /* OptionalToStringOptExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AEA370297F27B90032BB3D /* OptionalToStringOptExtension.swift */; };
+		C6DC07322981B05D003523A0 /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = C6DC07312981B05D003523A0 /* Algorithms */; };
+		C6DC07342981B21E003523A0 /* MailComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DC07332981B21E003523A0 /* MailComposer.swift */; };
 		C6DEC3F9297FDDC600462E94 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DEC3F8297FDDC600462E94 /* ContentView.swift */; };
 		C6DEC3FB297FDE3E00462E94 /* Stage2SetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DEC3FA297FDE3E00462E94 /* Stage2SetupView.swift */; };
 		C6DEC3FD297FDE8000462E94 /* Stage3MainMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DEC3FC297FDE8000462E94 /* Stage3MainMenuView.swift */; };
@@ -192,9 +288,9 @@
 		C6AEA390297F29A20032BB3D /* DebugView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DebugView.swift; sourceTree = "<group>"; };
 		C6DC06C32981AD85003523A0 /* Friendly Holdem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Friendly Holdem.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6DC06C52981AD85003523A0 /* Friendly_HoldemApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friendly_HoldemApp.swift; sourceTree = "<group>"; };
-		C6DC06C72981AD85003523A0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C6DC06C92981AD86003523A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C6DC06CC2981AD86003523A0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C6DC07332981B21E003523A0 /* MailComposer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MailComposer.swift; sourceTree = "<group>"; };
 		C6DEC3F8297FDDC600462E94 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C6DEC3FA297FDE3E00462E94 /* Stage2SetupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stage2SetupView.swift; sourceTree = "<group>"; };
 		C6DEC3FC297FDE8000462E94 /* Stage3MainMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stage3MainMenuView.swift; sourceTree = "<group>"; };
@@ -233,6 +329,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6DC07322981B05D003523A0 /* Algorithms in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,6 +342,7 @@
 				C6A4AA3C297F163E00CA5D5D /* Friendly Holdem for mac */,
 				C6DC06C42981AD85003523A0 /* Friendly Holdem */,
 				C6A4AA3B297F163E00CA5D5D /* Products */,
+				C6DC07302981B05D003523A0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -423,7 +521,7 @@
 			isa = PBXGroup;
 			children = (
 				C6DC06C52981AD85003523A0 /* Friendly_HoldemApp.swift */,
-				C6DC06C72981AD85003523A0 /* ContentView.swift */,
+				C6DC07332981B21E003523A0 /* MailComposer.swift */,
 				C6DC06C92981AD86003523A0 /* Assets.xcassets */,
 				C6DC06CB2981AD86003523A0 /* Preview Content */,
 			);
@@ -436,6 +534,13 @@
 				C6DC06CC2981AD86003523A0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C6DC07302981B05D003523A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -474,6 +579,9 @@
 			dependencies = (
 			);
 			name = "Friendly Holdem";
+			packageProductDependencies = (
+				C6DC07312981B05D003523A0 /* Algorithms */,
+			);
 			productName = "Friendly Holdem";
 			productReference = C6DC06C32981AD85003523A0 /* Friendly Holdem.app */;
 			productType = "com.apple.product-type.application";
@@ -647,8 +755,103 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6DC06C82981AD85003523A0 /* ContentView.swift in Sources */,
+				C6DC06ED2981AF2D003523A0 /* OtherPlayerView.swift in Sources */,
+				C6DC072F2981AFC7003523A0 /* OptionalToStringOptExtension.swift in Sources */,
+				C6DC07052981AF67003523A0 /* GameEndStatus.swift in Sources */,
+				C6DC06DB2981AF2D003523A0 /* FinalShowView.swift in Sources */,
+				C6DC06D82981AF0A003523A0 /* GameCtlExt_newAsync.swift in Sources */,
+				C6DC07242981AFC7003523A0 /* Color_UIColor.swift in Sources */,
+				C6DC07132981AF78003523A0 /* ParticipantLocalization copy.swift in Sources */,
+				C6DC06FD2981AF4A003523A0 /* RawCardSuit.swift in Sources */,
+				C6DC06F72981AF2D003523A0 /* ActiveActionMenu2.swift in Sources */,
+				C6DC07182981AF97003523A0 /* PaddedButton.swift in Sources */,
+				C6DC072A2981AFC7003523A0 /* blurYourself.swift in Sources */,
+				C6DC070F2981AF67003523A0 /* DealShowdownStatus.swift in Sources */,
+				C6DC06E22981AF2D003523A0 /* OOGTableView.swift in Sources */,
+				C6DC07152981AF78003523A0 /* GameLocalizer.swift in Sources */,
+				C6DC072B2981AFC7003523A0 /* BlurryBackground.swift in Sources */,
+				C6DC07162981AF97003523A0 /* SwappableBiStack.swift in Sources */,
+				C6DC06F02981AF2D003523A0 /* CardStackIDlessView.swift in Sources */,
 				C6DC06C62981AD85003523A0 /* Friendly_HoldemApp.swift in Sources */,
+				C6DC07122981AF78003523A0 /* ParticipantLocalization.swift in Sources */,
+				C6DC06FA2981AF2D003523A0 /* DebugView.swift in Sources */,
+				C6DC070A2981AF67003523A0 /* PokerGameAgreeing.swift in Sources */,
+				C6DC06FE2981AF4A003523A0 /* RawCardSymbol.swift in Sources */,
+				C6DC06D22981AF0A003523A0 /* GameTransition.swift in Sources */,
+				C6DC06D62981AF0A003523A0 /* gameController.swift in Sources */,
+				C6DC071C2981AF97003523A0 /* InputQuery.swift in Sources */,
+				C6DC072C2981AFC7003523A0 /* DispatchQueueRelativeAsync.swift in Sources */,
+				C6DC07002981AF67003523A0 /* PokerCardInterpretation.swift in Sources */,
+				C6DC07142981AF78003523A0 /* MatchLocalizer.swift in Sources */,
+				C6DC07042981AF67003523A0 /* PokerRules.swift in Sources */,
+				C6DC07082981AF67003523A0 /* PokerGame.swift in Sources */,
+				C6DC06D72981AF0A003523A0 /* GameCtlExt_Agreeing.swift in Sources */,
+				C6DC07232981AFC7003523A0 /* RelativeDateFormatterExtension.swift in Sources */,
+				C6DC07012981AF67003523A0 /* GameStartParameters.swift in Sources */,
+				C6DC06F32981AF2D003523A0 /* AgreeingInactiveView.swift in Sources */,
+				C6DC06F12981AF2D003523A0 /* ShowdownItem.swift in Sources */,
+				C6DC07292981AFC7003523A0 /* ConditionalAXAction.swift in Sources */,
+				C6DC071D2981AF97003523A0 /* soundFX.swift in Sources */,
+				C6DC071F2981AFC7003523A0 /* CustomAlignments.swift in Sources */,
+				C6DC06E82981AF2D003523A0 /* Stage3MainMenuView.swift in Sources */,
+				C6DC06F22981AF2D003523A0 /* MatchView.swift in Sources */,
+				C6DC06E62981AF2D003523A0 /* PokerTableView.swift in Sources */,
+				C6DC06D42981AF0A003523A0 /* GameCtlExt_Quit.swift in Sources */,
+				C6DC07072981AF67003523A0 /* Card.swift in Sources */,
+				C6DC07192981AF97003523A0 /* groupedAsync.swift in Sources */,
+				C6DC06F82981AF2D003523A0 /* AgreeingStage1View.swift in Sources */,
+				C6DC06DD2981AF2D003523A0 /* HowToBegin.swift in Sources */,
+				C6DC06D92981AF2D003523A0 /* ContentView.swift in Sources */,
+				C6DC07102981AF67003523A0 /* PokerHandRank.swift in Sources */,
+				C6DC072D2981AFC7003523A0 /* ParticipantArrayExtension.swift in Sources */,
+				C6DC07282981AFC7003523A0 /* StringExtension.swift in Sources */,
+				C6DC06DF2981AF2D003523A0 /* CardStackView.swift in Sources */,
+				C6DC06E42981AF2D003523A0 /* InactiveActionMenuView.swift in Sources */,
+				C6DC06D52981AF0A003523A0 /* GCHelper.swift in Sources */,
+				C6DC06D32981AF0A003523A0 /* GameCtlExt_Showdown.swift in Sources */,
+				C6DC06DA2981AF2D003523A0 /* VariantAddForm.swift in Sources */,
+				C6DC07172981AF97003523A0 /* MinWidthContainer.swift in Sources */,
+				C6DC06E92981AF2D003523A0 /* ShowdownView.swift in Sources */,
+				C6DC06F52981AF2D003523A0 /* MatchDetailsView.swift in Sources */,
+				C6DC07252981AFC7003523A0 /* ArrayNextOthers.swift in Sources */,
+				C6DC071E2981AFC7003523A0 /* UITurnBasedMatch.swift in Sources */,
+				C6DC07022981AF67003523A0 /* PokerGameShowdown.swift in Sources */,
+				C6DC070C2981AF67003523A0 /* CardStack.swift in Sources */,
+				C6DC071A2981AF97003523A0 /* JumpingTextView.swift in Sources */,
+				C6DC06E12981AF2D003523A0 /* ContactView.swift in Sources */,
+				C6DC06E72981AF2D003523A0 /* LastActionLine.swift in Sources */,
+				C6DC06DE2981AF2D003523A0 /* AgreeingView.swift in Sources */,
+				C6DC06EF2981AF2D003523A0 /* VariantLister.swift in Sources */,
+				C6DC07202981AFC7003523A0 /* TaskSleepSeconds.swift in Sources */,
+				C6DC06F92981AF2D003523A0 /* MatchInfoView.swift in Sources */,
+				C6DC07212981AFC7003523A0 /* OrdinalNumberFormatterExt.swift in Sources */,
+				C6DC070B2981AF67003523A0 /* PokerPlayer.swift in Sources */,
+				C6DC06EE2981AF2D003523A0 /* ExistingMatchChooserView.swift in Sources */,
+				C6DC06EA2981AF2D003523A0 /* MenuAndMatchView.swift in Sources */,
+				C6DC071B2981AF97003523A0 /* InterText.swift in Sources */,
+				C6DC07032981AF67003523A0 /* GameLogEntry.swift in Sources */,
+				C6DC072E2981AFC7003523A0 /* MatchExtension.swift in Sources */,
+				C6DC07262981AFC7003523A0 /* RangeTrim.swift in Sources */,
+				C6DC06EB2981AF2D003523A0 /* JoiningTableView.swift in Sources */,
+				C6DC06D12981AEDF003523A0 /* PreferencesClass.swift in Sources */,
+				C6DC06E02981AF2D003523A0 /* CardView.swift in Sources */,
+				C6DC06EC2981AF2D003523A0 /* LogInfoView.swift in Sources */,
+				C6DC06FB2981AF2D003523A0 /* BetRaiseAmountPicker.swift in Sources */,
+				C6DC07222981AFC7003523A0 /* MatchFindExchange.swift in Sources */,
+				C6DC06E32981AF2D003523A0 /* Stage2SetupView.swift in Sources */,
+				C6DC06FC2981AF2D003523A0 /* WelcomeView.swift in Sources */,
+				C6DC07092981AF67003523A0 /* gameState.swift in Sources */,
+				C6DC06E52981AF2D003523A0 /* PotInfoView.swift in Sources */,
+				C6DC07112981AF67003523A0 /* PokerPlayerAction.swift in Sources */,
+				C6DC06FF2981AF4A003523A0 /* RawCard.swift in Sources */,
+				C6DC07062981AF67003523A0 /* PokerPot.swift in Sources */,
+				C6DC070D2981AF67003523A0 /* InterpretationHandExtension.swift in Sources */,
+				C6DC06DC2981AF2D003523A0 /* gameView.swift in Sources */,
+				C6DC07272981AFC7003523A0 /* ViewBorder.swift in Sources */,
+				C6DC06F42981AF2D003523A0 /* MatchMenuView.swift in Sources */,
+				C6DC070E2981AF67003523A0 /* PokerInterpretationHand.swift in Sources */,
+				C6DC06F62981AF2D003523A0 /* NeedToAcknowledgeView.swift in Sources */,
+				C6DC07342981B21E003523A0 /* MailComposer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -828,7 +1031,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 11;
 				DEVELOPMENT_ASSET_PATHS = "\"Friendly Holdem/Preview Content\"";
 				DEVELOPMENT_TEAM = 2222CRHQ48;
 				ENABLE_PREVIEWS = YES;
@@ -838,12 +1041,12 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.5;
 				PRODUCT_BUNDLE_IDENTIFIER = com.saio674.FriendlyHoldem;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
@@ -859,7 +1062,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 11;
 				DEVELOPMENT_ASSET_PATHS = "\"Friendly Holdem/Preview Content\"";
 				DEVELOPMENT_TEAM = 2222CRHQ48;
 				ENABLE_PREVIEWS = YES;
@@ -869,12 +1072,12 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.5;
 				PRODUCT_BUNDLE_IDENTIFIER = com.saio674.FriendlyHoldem;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
@@ -930,6 +1133,11 @@
 
 /* Begin XCSwiftPackageProductDependency section */
 		C6AEA38E297F29060032BB3D /* Algorithms */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C6AEA38D297F29060032BB3D /* XCRemoteSwiftPackageReference "swift-algorithms" */;
+			productName = Algorithms;
+		};
+		C6DC07312981B05D003523A0 /* Algorithms */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = C6AEA38D297F29060032BB3D /* XCRemoteSwiftPackageReference "swift-algorithms" */;
 			productName = Algorithms;

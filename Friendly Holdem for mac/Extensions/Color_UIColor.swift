@@ -9,8 +9,10 @@ import SwiftUI
 
 #if os(macOS)
     typealias NSUIColor = NSColor
+typealias NSUIImage = NSImage
 #elseif os(iOS)
     typealias NSUIColor = UIColor
+typealias NSUIImage = UIImage
 #endif
 
 extension Color {
@@ -64,7 +66,7 @@ extension Color {
               c2.getRed(&r2, green: &g2, blue: &b2, alpha: &a2) else {
             return self
         } //gua
-        return Color( UIColor: UIColor( red: (r1 + r2) / 2, green: (g1 + g2) / 2, blue: (b1 + b2) / 2, alpha: (a1 + a2) / 2))
+        return Color( UIColor( red: (r1 + r2) / 2, green: (g1 + g2) / 2, blue: (b1 + b2) / 2, alpha: (a1 + a2) / 2))
 #elseif os(macOS)
         c1.getRed(&r1, green: &g1, blue: &b1, alpha: &a1)
         c2.getRed(&r2, green: &g2, blue: &b2, alpha: &a2)
