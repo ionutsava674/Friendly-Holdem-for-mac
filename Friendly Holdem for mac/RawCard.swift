@@ -7,9 +7,6 @@
 
 import SwiftUI
 
-#if os(macOS)
-typealias MACImage = NSImage
-#endif
 class RawCard: Codable {
     let suit: RawCardSuit
     let symbol: RawCardSymbol
@@ -27,7 +24,7 @@ class RawCard: Codable {
     } //init
     
     static let cardSizeRatio: CGFloat = {
-        guard let sample = MACImage(named: "clubs_2") else {
+        guard let sample = NSUIImage(named: "clubs_2") else {
             return 1.0
         }
         return sample.size.height / sample.size.width
