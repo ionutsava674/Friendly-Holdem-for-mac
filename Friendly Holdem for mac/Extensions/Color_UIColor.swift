@@ -57,8 +57,10 @@ extension Color {
     //        return self
         } //func
     func blendMed( with secondColor: Color) -> Color {
-        let c1: NSUIColor = NSUIColor( self)
-        let c2: NSUIColor = NSUIColor( secondColor)
+        guard let c1: NSUIColor = NSUIColor( self).usingColorSpace(.deviceRGB),
+              let c2: NSUIColor = NSUIColor( secondColor).usingColorSpace(.deviceRGB) else {
+            return self
+        } //gua
         var (r1, g1, b1, a1) = (CGFloat(0), CGFloat(0), CGFloat(0), CGFloat(0))
         var (r2, g2, b2, a2) = (CGFloat(0), CGFloat(0), CGFloat(0), CGFloat(0))
 #if os(iOS)
@@ -76,6 +78,7 @@ extension Color {
 
 } //ext
 #if os(iOS)
+/*
 extension UIColor {
     func blendMed(with secondColor: UIColor) -> UIColor {
         var (r1, g1, b1, a1) = (CGFloat(0), CGFloat(0), CGFloat(0), CGFloat(0))
@@ -87,4 +90,5 @@ extension UIColor {
         return UIColor( red: (r1 + r2) / 2, green: (g1 + g2) / 2, blue: (b1 + b2) / 2, alpha: (a1 + a2) / 2)
     } //func
 } //ext
+ */
 #endif

@@ -17,11 +17,7 @@ struct WelcomeView: View {
 #endif
 
     var whenClickedContinue: (() -> Void)?
-#if os(iOS)
-    static let bg1: Color = Color.secondarySystemBackground.blendMed( with: .gray)
-    #else
-    static let bg1: Color = Color( nsColor: .windowBackgroundColor)
-    #endif
+    static let bg1: Color = Color.systemBackground.blendMed( with: .gray)
     var body: some View {
         VStack(alignment: .center, spacing: 8) {
             GeometryReader {geo in

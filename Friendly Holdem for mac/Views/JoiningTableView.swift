@@ -100,22 +100,26 @@ struct JoiningTableView: View {
                             } //if
                             //if !game.flop.cards.isEmpty {
                                 GeometryReader { flopGeo in
+#if os(iOS)
                                     List {
                                         CardStackView(stack: game.flop, anim_ns: cardAnim_ns, desiredCardWidth: FLOP_STACK_CARD_WIDTH, desiredXSpacing: FLOP_STACK_CARD_WIDTH * 1.2, desiredYSpacing: 0, fitInRect: true, holdAtAngle: .zero, asSeenBy: viewedBy.matchParticipantIndex)
                                             .conditionalAxContent( !game.flop.cards.isEmpty, key: AccessibilityCustomContentKey(Text("On the table, facing up"), id: "location"), contentValue: Text(""))
                                             .accessibilityFocused($playerAxFocus, equals: 40)
-                                            .frame(width: flopGeo.size.width
-                                                   , height: flopGeo.size.height
-                                                   , alignment: .center)
-                                        // .background(.blue)
+                                            .frame(width: flopGeo.size.width, height: flopGeo.size.height, alignment: .center)
                                             .listRowInsets(EdgeInsets())
                                             .listRowBackground(Color.clear)
-                                        // .background(.orange)
                                     } //ls
                                     .environment(\.defaultMinListRowHeight, 0)
-                                    .listRowBackground(Color.clear)
+                                    //.listRowBackground(Color.clear)
                                     .listStyle(PlainListStyle() )
                                     .accessibilityLabel("flop")
+#elseif os(macOS)
+                                        CardStackView(stack: game.flop, anim_ns: cardAnim_ns, desiredCardWidth: FLOP_STACK_CARD_WIDTH, desiredXSpacing: FLOP_STACK_CARD_WIDTH * 1.2, desiredYSpacing: 0, fitInRect: true, holdAtAngle: .zero, asSeenBy: viewedBy.matchParticipantIndex)
+                                            .conditionalAxContent( !game.flop.cards.isEmpty, key: AccessibilityCustomContentKey(Text("On the table, facing up"), id: "location"), contentValue: Text(""))
+                                            .accessibilityFocused($playerAxFocus, equals: 40)
+                                            .frame(width: flopGeo.size.width, height: flopGeo.size.height, alignment: .center)
+                                    .accessibilityLabel("flop")
+#endif
                                 } //flopGeo
                             //} //if nempty
                         } //mid hs
