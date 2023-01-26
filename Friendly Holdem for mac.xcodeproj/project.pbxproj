@@ -85,6 +85,8 @@
 		C6AEA38C297F27B90032BB3D /* RangeTrim.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AEA37B297F27B90032BB3D /* RangeTrim.swift */; };
 		C6AEA38F297F29060032BB3D /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = C6AEA38E297F29060032BB3D /* Algorithms */; };
 		C6AEA391297F29A20032BB3D /* DebugView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AEA390297F29A20032BB3D /* DebugView.swift */; };
+		C6C4FB4A298232850099F515 /* SharedAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6C4FB49298232850099F515 /* SharedAssets.xcassets */; };
+		C6C4FB4B298234B00099F515 /* SharedAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6C4FB49298232850099F515 /* SharedAssets.xcassets */; };
 		C6DC06C62981AD85003523A0 /* Friendly_HoldemApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DC06C52981AD85003523A0 /* Friendly_HoldemApp.swift */; };
 		C6DC06CA2981AD86003523A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6DC06C92981AD86003523A0 /* Assets.xcassets */; };
 		C6DC06CD2981AD86003523A0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6DC06CC2981AD86003523A0 /* Preview Assets.xcassets */; };
@@ -291,6 +293,7 @@
 		C6AEA37A297F27B90032BB3D /* OrdinalNumberFormatterExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrdinalNumberFormatterExt.swift; sourceTree = "<group>"; };
 		C6AEA37B297F27B90032BB3D /* RangeTrim.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RangeTrim.swift; sourceTree = "<group>"; };
 		C6AEA390297F29A20032BB3D /* DebugView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DebugView.swift; sourceTree = "<group>"; };
+		C6C4FB49298232850099F515 /* SharedAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = SharedAssets.xcassets; sourceTree = "<group>"; };
 		C6D41A742981C3C800892A0D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		C6D41A752981C3D900892A0D /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
 		C6D41A762981C42D00892A0D /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -382,6 +385,7 @@
 				C6AEA32A297F25E50032BB3D /* Generals */,
 				C6AEA329297F25D20032BB3D /* Extensions */,
 				C6A4AA41297F163E00CA5D5D /* Assets.xcassets */,
+				C6C4FB49298232850099F515 /* SharedAssets.xcassets */,
 				C6A4AA46297F163E00CA5D5D /* Friendly_Holdem_for_mac.entitlements */,
 				C6A4AA43297F163E00CA5D5D /* Preview Content */,
 			);
@@ -646,6 +650,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6C4FB4A298232850099F515 /* SharedAssets.xcassets in Resources */,
 				C6A4AA45297F163E00CA5D5D /* Preview Assets.xcassets in Resources */,
 				C6DC39A22981C2C0008E83CE /* Localizable.strings in Resources */,
 				C6A4AA42297F163E00CA5D5D /* Assets.xcassets in Resources */,
@@ -657,6 +662,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6C4FB4B298234B00099F515 /* SharedAssets.xcassets in Resources */,
 				C6DC06CD2981AD86003523A0 /* Preview Assets.xcassets in Resources */,
 				C6DC39A52981C2C0008E83CE /* Localizable.strings in Resources */,
 				C6DC06CA2981AD86003523A0 /* Assets.xcassets in Resources */,
