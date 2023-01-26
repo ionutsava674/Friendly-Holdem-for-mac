@@ -87,6 +87,14 @@
 		C6AEA391297F29A20032BB3D /* DebugView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AEA390297F29A20032BB3D /* DebugView.swift */; };
 		C6C4FB4A298232850099F515 /* SharedAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6C4FB49298232850099F515 /* SharedAssets.xcassets */; };
 		C6C4FB4B298234B00099F515 /* SharedAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6C4FB49298232850099F515 /* SharedAssets.xcassets */; };
+		C6CBD6A92982E6690067964D /* CardIDlessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63DD20F2982CE2B00B2981A /* CardIDlessView.swift */; };
+		C6CBD6AA2982E6690067964D /* CardFlipModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63DD2112982CF0D00B2981A /* CardFlipModifier.swift */; };
+		C6CBD6AB2982E6690067964D /* OpModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63DD2132982CF6B00B2981A /* OpModifier.swift */; };
+		C6CBD6AC2982E6690067964D /* midOpacityTransfer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63DD2152982D02F00B2981A /* midOpacityTransfer.swift */; };
+		C6CBD6AD2982E66C0067964D /* CardIDlessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63DD20F2982CE2B00B2981A /* CardIDlessView.swift */; };
+		C6CBD6AE2982E66C0067964D /* CardFlipModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63DD2112982CF0D00B2981A /* CardFlipModifier.swift */; };
+		C6CBD6AF2982E66C0067964D /* OpModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63DD2132982CF6B00B2981A /* OpModifier.swift */; };
+		C6CBD6B02982E66C0067964D /* midOpacityTransfer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63DD2152982D02F00B2981A /* midOpacityTransfer.swift */; };
 		C6DC06C62981AD85003523A0 /* Friendly_HoldemApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DC06C52981AD85003523A0 /* Friendly_HoldemApp.swift */; };
 		C6DC06CA2981AD86003523A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6DC06C92981AD86003523A0 /* Assets.xcassets */; };
 		C6DC06CD2981AD86003523A0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6DC06CC2981AD86003523A0 /* Preview Assets.xcassets */; };
@@ -216,6 +224,10 @@
 
 /* Begin PBXFileReference section */
 		C6328E3C297FCE000064E4A3 /* WelcomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		C63DD20F2982CE2B00B2981A /* CardIDlessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardIDlessView.swift; sourceTree = "<group>"; };
+		C63DD2112982CF0D00B2981A /* CardFlipModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardFlipModifier.swift; sourceTree = "<group>"; };
+		C63DD2132982CF6B00B2981A /* OpModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpModifier.swift; sourceTree = "<group>"; };
+		C63DD2152982D02F00B2981A /* midOpacityTransfer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = midOpacityTransfer.swift; sourceTree = "<group>"; };
 		C69A8ED62981B556003A6B40 /* sfx2 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = sfx2; sourceTree = "<group>"; };
 		C6A24FD0297FEB2C00F65949 /* ParticipantLocalization copy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ParticipantLocalization copy.swift"; sourceTree = "<group>"; };
 		C6A24FD2297FEB9F00F65949 /* VariantAddForm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VariantAddForm.swift; sourceTree = "<group>"; };
@@ -439,6 +451,10 @@
 				C6A24FDE298000E200F65949 /* CardStackView.swift */,
 				C6DEC420297FE99800462E94 /* CardStackIDlessView.swift */,
 				C6A24FD6297FEBE700F65949 /* CardView.swift */,
+				C63DD20F2982CE2B00B2981A /* CardIDlessView.swift */,
+				C63DD2112982CF0D00B2981A /* CardFlipModifier.swift */,
+				C63DD2132982CF6B00B2981A /* OpModifier.swift */,
+				C63DD2152982D02F00B2981A /* midOpacityTransfer.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -714,6 +730,7 @@
 				C6AEA37F297F27B90032BB3D /* MatchExtension.swift in Sources */,
 				C6AEA35A297F27400032BB3D /* GameLocalizer.swift in Sources */,
 				C6AEA35C297F27400032BB3D /* ParticipantLocalization.swift in Sources */,
+				C6CBD6A92982E6690067964D /* CardIDlessView.swift in Sources */,
 				C6AEA351297F271B0032BB3D /* GameEndStatus.swift in Sources */,
 				C6A24FD4297FEB9F00F65949 /* VariantAddForm.swift in Sources */,
 				C6AEA381297F27B90032BB3D /* OptionalToStringOptExtension.swift in Sources */,
@@ -737,6 +754,7 @@
 				C6A24FD9297FF7A300F65949 /* Color_UIColor.swift in Sources */,
 				C6AEA37E297F27B90032BB3D /* ConditionalAXAction.swift in Sources */,
 				C6AEA38A297F27B90032BB3D /* StringExtension.swift in Sources */,
+				C6CBD6AA2982E6690067964D /* CardFlipModifier.swift in Sources */,
 				C6A4AA3E297F163E00CA5D5D /* Friendly_Holdem_for_macApp.swift in Sources */,
 				C6AEA391297F29A20032BB3D /* DebugView.swift in Sources */,
 				C6A24FD5297FEB9F00F65949 /* VariantLister.swift in Sources */,
@@ -752,6 +770,7 @@
 				C6AEA388297F27B90032BB3D /* ViewBorder.swift in Sources */,
 				C6DEC419297FE8A900462E94 /* ShowdownItem.swift in Sources */,
 				C6AEA35B297F27400032BB3D /* MatchLocalizer.swift in Sources */,
+				C6CBD6AB2982E6690067964D /* OpModifier.swift in Sources */,
 				C6AEA34A297F271B0032BB3D /* DealShowdownStatus.swift in Sources */,
 				C6DEC423297FE9E800462E94 /* AgreeingStage1View.swift in Sources */,
 				C6AEA345297F271B0032BB3D /* Card.swift in Sources */,
@@ -765,6 +784,7 @@
 				C6DEC407297FE49600462E94 /* MatchInfoView.swift in Sources */,
 				C6DEC411297FE5C100462E94 /* MatchDetailsView.swift in Sources */,
 				C6AEA34D297F271B0032BB3D /* CardStack.swift in Sources */,
+				C6CBD6AC2982E6690067964D /* midOpacityTransfer.swift in Sources */,
 				C6A4AA4F297F175000CA5D5D /* RawCardSymbol.swift in Sources */,
 				C6DEC403297FE19F00462E94 /* HowToBegin.swift in Sources */,
 				C6328E3D297FCE000064E4A3 /* WelcomeView.swift in Sources */,
@@ -796,6 +816,7 @@
 				C6DC07152981AF78003523A0 /* GameLocalizer.swift in Sources */,
 				C6DC072B2981AFC7003523A0 /* BlurryBackground.swift in Sources */,
 				C6DC07162981AF97003523A0 /* SwappableBiStack.swift in Sources */,
+				C6CBD6AE2982E66C0067964D /* CardFlipModifier.swift in Sources */,
 				C6DC06F02981AF2D003523A0 /* CardStackIDlessView.swift in Sources */,
 				C6DC06C62981AD85003523A0 /* Friendly_HoldemApp.swift in Sources */,
 				C6DC07122981AF78003523A0 /* ParticipantLocalization.swift in Sources */,
@@ -812,6 +833,7 @@
 				C6DC07082981AF67003523A0 /* PokerGame.swift in Sources */,
 				C6DC06D72981AF0A003523A0 /* GameCtlExt_Agreeing.swift in Sources */,
 				C6DC07232981AFC7003523A0 /* RelativeDateFormatterExtension.swift in Sources */,
+				C6CBD6AD2982E66C0067964D /* CardIDlessView.swift in Sources */,
 				C6DC07012981AF67003523A0 /* GameStartParameters.swift in Sources */,
 				C6DC06F32981AF2D003523A0 /* AgreeingInactiveView.swift in Sources */,
 				C6DC06F12981AF2D003523A0 /* ShowdownItem.swift in Sources */,
@@ -825,6 +847,7 @@
 				C6DC07072981AF67003523A0 /* Card.swift in Sources */,
 				C6DC07192981AF97003523A0 /* groupedAsync.swift in Sources */,
 				C6DC06F82981AF2D003523A0 /* AgreeingStage1View.swift in Sources */,
+				C6CBD6B02982E66C0067964D /* midOpacityTransfer.swift in Sources */,
 				C6DC06DD2981AF2D003523A0 /* HowToBegin.swift in Sources */,
 				C6DC06D92981AF2D003523A0 /* ContentView.swift in Sources */,
 				C6DC07102981AF67003523A0 /* PokerHandRank.swift in Sources */,
@@ -867,6 +890,7 @@
 				C6DC06FC2981AF2D003523A0 /* WelcomeView.swift in Sources */,
 				C6DC07092981AF67003523A0 /* gameState.swift in Sources */,
 				C6DC06E52981AF2D003523A0 /* PotInfoView.swift in Sources */,
+				C6CBD6AF2982E66C0067964D /* OpModifier.swift in Sources */,
 				C6DC07112981AF67003523A0 /* PokerPlayerAction.swift in Sources */,
 				C6DC06FF2981AF4A003523A0 /* RawCard.swift in Sources */,
 				C6DC07062981AF67003523A0 /* PokerPot.swift in Sources */,

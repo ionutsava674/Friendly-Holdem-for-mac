@@ -43,28 +43,31 @@ struct ShowdownView: View {
             sdBack
                 .brightness(0.09)
             VStack(alignment: .center, spacing: 0) { //main vs //others and tokens
-                /*
                 HStack {
-                Button("test 1") {
-                    Tester1.getInstance.testShowdown1()
-                } //btn
+                    Text("Showdown")
+                        .font(.largeTitle.bold())
                 } //hs
-                */
-                List() {
-                    ForEach( Array( game.self.lastShowdownStatus.winners.enumerated()), id: \.element.computedId) { (rankIndex, eachRank) in
+                //List() {
+                ScrollView(.vertical, showsIndicators: true) {
+                    VStack(alignment: .center, spacing: 16) {
+                    ForEach( Array( game.lastShowdownStatus.winners.enumerated()), id: \.element.computedId) { (rankIndex, eachRank) in
                         ShowdownItem( resultPlace: eachRank, placeIndex: rankIndex, match: match)
                     } //fe
-                    .listRowBackground(Color.clear)
+                    //.listRowBackground(Color.clear)
+
                                         ForEach( restOfPlayers, id: \.matchParticipantIndex) { remainingPlayer in
                         Text( GameLocalizer.LocalizedShowdownStatus( for: remainingPlayer, in: match, withName: true, isLocal: false))
                     } //fe2
-                    .listRowBackground(Color.clear)
-                    Section {
+                    //.listRowBackground(Color.clear)
+
+                    //Section {
+                        VStack(alignment: .leading, spacing: 8) {
+                            Text("Chip recipients")
                         let multiPots = game.lastShowdownStatus.pots.count > 1
                         if multiPots {
                             Text("The total amount of \( game.lastShowdownStatus.pots.totalAmount() ) chips is made of \( game.lastShowdownStatus.pots.count ) pots:")
                                 .listRowBackground(Color.clear)
-                                                        }
+                                                        } //if
                         ForEach(game.lastShowdownStatus.pots, id: \.cutPoint) { eachPot in
                             Text("\(eachPot.shouldAccumulate) chips pot, \(eachPot.contributers.count) x \(eachPot.actualSize) chips bet by \(listAliases( of: eachPot.contributers)).")
                             Text(String(localized: "won by \(listAliases( of: eachPot.recipients ?? [])).") +
@@ -73,17 +76,16 @@ struct ShowdownView: View {
                                   : "") )
                             Divider()
                         } //fe
-                        .listRowBackground(Color.clear)
-                                            } header: {
-                        Text("Chip recipients")
-                    } //sect
-                } //ls
-                .environment(\.defaultMinListRowHeight, 0)
-                //.listRowBackground(Color.clear)
-                .listStyle(PlainListStyle() )
-                //.listRowBackground(sdBack)
-                //.background(sdBack)
-                //Text(game.lastShowdownStatus.printack())
+                        //.listRowBackground(Color.clear)
+                        } //vs
+                                            //} header: {
+                        //Text("Chip recipients")
+                    //} //sect
+                    } //vs
+                } //sv ls
+                .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
+                //.environment(\.defaultMinListRowHeight, 0)
+                //.listStyle(PlainListStyle() )
 NeedToAcknowledgeView(game: game, viewedBy: viewedBy, match: match)
                 if viewedBy.joiningGame {
                     HStack {

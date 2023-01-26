@@ -8,10 +8,8 @@
 import SwiftUI
 
 struct CardStackIDlessView: View {
-    //struct CardStackView: View {
         @ObservedObject var stack: CardStack
-        
-        let anim_ns: Namespace.ID
+        //let anim_ns: Namespace.ID
         let desiredCardWidth: CGFloat
         let desiredXSpacing, desiredYSpacing: CGFloat
         let fitInRect: Bool
@@ -83,7 +81,6 @@ struct CardStackIDlessView: View {
                     CardView(card: card, cardWidth: willFitInRectSize(width: desiredCardWidth, rectSize: geo.size).width,
                              faceDown: !stack.canBeSeen( by: asSeenBy),
                              backFacingText: backFacingText )
-                        //.matchedGeometryEffect( id: card.id, in: anim_ns)
                         .rotationEffect( stAng + incAng * Double( index))
                         .accessibilityHidden(onlyLastAccessible && index != (toShowCardsCount - 1))
                         .allowsHitTesting(!onlyLastAccessible || index == (toShowCardsCount - 1))

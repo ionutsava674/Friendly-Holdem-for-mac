@@ -46,7 +46,7 @@ struct ShowdownItem: View {
                             Text("\( GameLocalizer.playerAlias( of: eachPlayer, in: match) )'s hand. \( eachPlayer.lastFinishingResult?.rank.name ?? "no result" )")
                                 .font(.body.bold())
                         }
-                        CardStackIDlessView(stack: eachPlayer.lastFinishingResult?.bestCombo ?? CardStack.emptyStackForViewing, anim_ns: stackNS, desiredCardWidth: 92, desiredXSpacing: 92, desiredYSpacing: 0, fitInRect: true, holdAtAngle: .zero, asSeenBy: eachPlayer.matchParticipantIndex)
+                        CardStackIDlessView(stack: eachPlayer.lastFinishingResult?.bestCombo ?? CardStack.emptyStackForViewing, desiredCardWidth: 92, desiredXSpacing: 92, desiredYSpacing: 0, fitInRect: true, holdAtAngle: .zero, asSeenBy: eachPlayer.matchParticipantIndex)
                             .frame(minHeight: 100, idealHeight: 112, maxHeight: 144, alignment: .center)
                         Text("Bet \( "\(eachPlayer.lastFinishingResult?.didPlaceInBet ?? 0)" ) chips, got \( "\(eachPlayer.lastFinishingResult?.didGetAfterBet ?? 0)" ).")
                         Text( ((eachPlayer.lastFinishingResult?.didGetOverall ?? 0) >= 0)

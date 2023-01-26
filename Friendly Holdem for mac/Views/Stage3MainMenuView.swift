@@ -10,6 +10,7 @@ import GameKit
 
 struct Stage3MainMenuView: View {
     @AppStorage("savedMatch") private var savedMatch: String = ""
+    @ObservedObject private var glop = GlobalPreferences2.global
     @Environment(\.accessibilityReduceMotion) private var reduceMotion
     let localPlayer = GKLocalPlayer.local
     @ObservedObject private var gch = GCHelper.helper
@@ -76,6 +77,10 @@ struct Stage3MainMenuView: View {
                             .accessibilityFocused($titleFocused)
                     MatchMenuView()
                         .environmentObject( gch)
+                    Button("Restore defaults") {
+                        glop.restoreDefaults()
+                    } //btn
+                    .disabled(glop.valuesAreDefaults())
                     Button("Contact") {
                         withAnimation {
                             self.showingContact = true

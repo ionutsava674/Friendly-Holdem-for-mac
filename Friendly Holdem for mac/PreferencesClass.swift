@@ -26,4 +26,7 @@ class GlobalPreferences2: ObservableObject {
     func restoreDefaults() -> Void {
         skipWelcome = false
     } //func
+    func valuesAreDefaults() -> Bool {
+        skipWelcome == false
+    } //func
 } //class

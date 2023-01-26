@@ -17,7 +17,7 @@ struct WelcomeView: View {
 #endif
 
     var whenClickedContinue: (() -> Void)?
-    static let bg1: Color = Color.systemBackground.blendMed( with: .gray)
+    //static let bg1: Color = Color.systemBackground.blendMed( with: .gray)
     var body: some View {
         VStack(alignment: .center, spacing: 8) {
             GeometryReader {geo in
@@ -36,7 +36,7 @@ struct WelcomeView: View {
                 } //vs
                 .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .center)
                 .accessibilityElement(children: .combine)
-                .background(Self.bg1)
+                .background(Color.gray.opacity(0.4))
                 .clipShape(RoundedRectangle(cornerRadius: 20))
                 .overlay(content: {
                     RoundedRectangle(cornerRadius: 20)
