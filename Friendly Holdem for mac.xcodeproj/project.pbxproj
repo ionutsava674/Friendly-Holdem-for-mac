@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C6328E3D297FCE000064E4A3 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6328E3C297FCE000064E4A3 /* WelcomeView.swift */; };
+		C67CB1A92985540C00898793 /* docs in Resources */ = {isa = PBXBuildFile; fileRef = C67CB1A82985540C00898793 /* docs */; };
 		C69A8ED72981B556003A6B40 /* sfx2 in Resources */ = {isa = PBXBuildFile; fileRef = C69A8ED62981B556003A6B40 /* sfx2 */; };
 		C69A8EDA2981BC48003A6B40 /* sfx2 in Resources */ = {isa = PBXBuildFile; fileRef = C69A8ED62981B556003A6B40 /* sfx2 */; };
 		C6A24FD1297FEB2C00F65949 /* ParticipantLocalization copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A24FD0297FEB2C00F65949 /* ParticipantLocalization copy.swift */; };
@@ -228,6 +229,7 @@
 		C63DD2112982CF0D00B2981A /* CardFlipModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardFlipModifier.swift; sourceTree = "<group>"; };
 		C63DD2132982CF6B00B2981A /* OpModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpModifier.swift; sourceTree = "<group>"; };
 		C63DD2152982D02F00B2981A /* midOpacityTransfer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = midOpacityTransfer.swift; sourceTree = "<group>"; };
+		C67CB1A82985540C00898793 /* docs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = docs; sourceTree = "<group>"; };
 		C69A8ED62981B556003A6B40 /* sfx2 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = sfx2; sourceTree = "<group>"; };
 		C6A24FD0297FEB2C00F65949 /* ParticipantLocalization copy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ParticipantLocalization copy.swift"; sourceTree = "<group>"; };
 		C6A24FD2297FEB9F00F65949 /* VariantAddForm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VariantAddForm.swift; sourceTree = "<group>"; };
@@ -364,6 +366,7 @@
 		C6A4AA31297F163E00CA5D5D = {
 			isa = PBXGroup;
 			children = (
+				C67CB1A82985540C00898793 /* docs */,
 				C6A4AA3C297F163E00CA5D5D /* Friendly Holdem for mac */,
 				C6DC06C42981AD85003523A0 /* Friendly Holdem */,
 				C6A4AA3B297F163E00CA5D5D /* Products */,
@@ -669,6 +672,7 @@
 				C6C4FB4A298232850099F515 /* SharedAssets.xcassets in Resources */,
 				C6A4AA45297F163E00CA5D5D /* Preview Assets.xcassets in Resources */,
 				C6DC39A22981C2C0008E83CE /* Localizable.strings in Resources */,
+				C67CB1A92985540C00898793 /* docs in Resources */,
 				C6A4AA42297F163E00CA5D5D /* Assets.xcassets in Resources */,
 				C69A8ED72981B556003A6B40 /* sfx2 in Resources */,
 			);
