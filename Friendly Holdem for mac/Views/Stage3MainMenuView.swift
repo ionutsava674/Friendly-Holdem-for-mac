@@ -34,7 +34,7 @@ struct Stage3MainMenuView: View {
         VStack {
             if showingContact {
                 ContactView(isPresented: $showingContact)
-                    .transition(.scale.applyReduceMotion(reduceMotion: reduceMotion, allowFade: true))
+                    //.transition(.scale.applyReduceMotion(reduceMotion: reduceMotion, allowFade: true))
             } //cnt
             else {
             if gch.currentMatch == nil {
@@ -82,9 +82,9 @@ struct Stage3MainMenuView: View {
                     } //btn
                     .disabled(glop.valuesAreDefaults())
                     Button("Contact") {
-                        withAnimation {
+                        //withAnimation {
                             self.showingContact = true
-                        }
+                        //}
                     } //btn
                 } //vs
                 .transition(.scale.applyReduceMotion(reduceMotion: reduceMotion, allowFade: true))

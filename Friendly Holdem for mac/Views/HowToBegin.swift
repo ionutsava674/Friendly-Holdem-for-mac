@@ -52,6 +52,7 @@ struct HowToBegin: View {
             }//btn
             .padding(8)
         } //vs
+        .frame(maxWidth: 600, alignment: .center)
         .onAppear(perform: {
             DispatchQueue.main.relativeAsync(after: appearAnimDuration) {
                 self.TitleAxFocused = true

@@ -80,6 +80,7 @@ class GCHelper: NSObject, ObservableObject {
     private var prepareForNewlyJoined = false
     
     @Published var turnEventConfirmation: TurnEventConfirmation?
+    //var lastConfirmationAttr = ""
     
     let gameCtl = GameController()
     
@@ -265,7 +266,11 @@ extension GCHelper: GKLocalPlayerListener {
         let hadOpenGame = currentMatch != nil
         let isSameAsOpen = match.matchID == currentMatch?.matchID
         let cameFromNewOrJoin = prepareForNewlyJoined
-        
+        //let ds = "\(didBecomeActive), \(isSameAsOpen), \(hadOpenGame), \(cameFromNewOrJoin)"
+        //print("confirmation")
+        //print( ds)
+        //lastConfirmationAttr = ds
+        //print((didBecomeActive, isSameAsOpen, hadOpenGame, cameFromNewOrJoin))
         switch (didBecomeActive, isSameAsOpen, hadOpenGame, cameFromNewOrJoin) {
         case (true, _, _, _):
             return .allow
@@ -295,6 +300,7 @@ extension GCHelper: GKLocalPlayerListener {
             await loadMatchToCurrent( match)
         }
     } //turn func
+    /*
     private func checkShouldDisplayAndContinue_o1( _ player: GKPlayer, receivedTurnEventFor match: GKTurnBasedMatch, didBecomeActive: Bool) {
         if player != GKLocalPlayer.local {
             debugMsg_("player mismatch")
@@ -314,6 +320,7 @@ extension GCHelper: GKLocalPlayerListener {
             await loadMatchToCurrent( match)
         }
     } //turn func
+    */
     @MainActor private func loadMatchToCurrent( _ match: GKTurnBasedMatch?) async -> Void {
         debugMsg_("setting match")
         currentMatch = match
