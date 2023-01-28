@@ -4,7 +4,7 @@
 
 ### **Overview**
 
-Friendly Holdem is an iOS app that allows users to play the popular game of Texas Holdem Poker.
+Friendly Holdem is an macOS app that allows users to play the popular game of Texas Holdem Poker.
 
 Written in SwiftUI, the app is designed to be user-friendly and accessible for VoiceOver users.
 The app utilizes GameCenter to provide a seamless gaming experience.
@@ -29,7 +29,7 @@ This means that players who are visually impaired can enjoy the game just as muc
 
 ### **Get the app**
 
-[_Get on the app store_](https://apps.apple.com/app/friendly-holdem/id1632308313)
+<!--[_Get on the app store_](https://apps.apple.com/app/friendly-holdem/id1632308313)-->
 
 ### **App Privacy**
 
