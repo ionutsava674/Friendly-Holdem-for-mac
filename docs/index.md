@@ -29,7 +29,12 @@ This means that players who are visually impaired can enjoy the game just as muc
 
 ### **Get the app**
 
+[_Download_](https://github.com/ionutsava674/Friendly-Holdem-for-mac/releases/download/v0.9/FriendlyHoldem.dmg)
 <!--[_Get on the app store_](https://apps.apple.com/app/friendly-holdem/id1632308313)-->
+
+### **Links**
+
+[Go to the code page](https://github.com/ionutsava674/Friendly-Holdem-for-mac)
 
 ### **App Privacy**
 
