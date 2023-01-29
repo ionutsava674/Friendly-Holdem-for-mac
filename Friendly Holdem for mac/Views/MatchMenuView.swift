@@ -89,6 +89,7 @@ struct MatchMenuView: View {
                             self.onMenuItemSelected?()
                         }) //btn
                     } //fe
+                Button("Cancel", role: .cancel) { newProgGameConfirmation = false }
                 }, message: {
                     Text("How many players")
                 }) //dialog

@@ -32,10 +32,14 @@ struct Stage3MainMenuView: View {
                 Text("\(self.gch.errorDialog?.msg ?? "")").hidden()
             } //hhs
         VStack {
+            //Toggle("cnt", isOn: $showingContact)
             if showingContact {
-                ContactView(isPresented: $showingContact)
-                    //.transition(.scale.applyReduceMotion(reduceMotion: reduceMotion, allowFade: true))
+                ContactView(isPresented: $showingContact.animation())
+                    .transition(.slide.applyReduceMotion( reduceMotion: reduceMotion, allowFade: true))
             } //cnt
+            //if !showingContact {
+                //Text("")
+            //}
             else {
             if gch.currentMatch == nil {
                 VStack(alignment: .center, spacing: 50) {
@@ -82,17 +86,18 @@ struct Stage3MainMenuView: View {
                     } //btn
                     .disabled(glop.valuesAreDefaults())
                     Button("Contact") {
-                        //withAnimation {
+                        withAnimation {
                             self.showingContact = true
-                        //}
+                        }
                     } //btn
                 } //vs
-                .transition(.scale.applyReduceMotion(reduceMotion: reduceMotion, allowFade: true))
+                .transition(.slide.applyReduceMotion( reduceMotion: reduceMotion, allowFade: true))
+                //.transition(.scale)
             } //if
             else {
                 MenuAndMatchView(match: gch.currentMatch!)
                     .environmentObject( gch)
-                    .transition(.scale.applyReduceMotion(reduceMotion: reduceMotion, allowFade: true))
+                    .transition(.slide.applyReduceMotion( reduceMotion: reduceMotion, allowFade: true))
             } //else
             } //else
         } //main vs

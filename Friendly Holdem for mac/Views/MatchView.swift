@@ -15,7 +15,7 @@ struct MatchView: View {
     
     @Environment(\.scenePhase) var scenePhase
     @State private var appActive = true
-    let matchRefreshTimer = Timer.publish( every: 20.45, tolerance: 3.20, on: .main, in: .common, options: nil).autoconnect()
+    let matchRefreshTimer = Timer.publish( every: 15.45, tolerance: 5.20, on: .main, in: .common, options: nil).autoconnect()
     
     @MainActor func refreshTimerProc() -> Void {
         guard self.appActive else {
