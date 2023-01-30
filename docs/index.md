@@ -18,6 +18,8 @@ The sounds and images used in Friendly Holdem were taken from the public domain,
 Overall, Friendly Holdem is a must-have app for anyone who loves the game of poker. 
 With its user-friendly interface, challenging gameplay, and virtual betting system, it offers a unique and enjoyable gaming experience that you won't find anywhere else. And the fact that it's free, with no ads, and open-source makes it a top choice for anyone looking for a poker app. 
 
+![screenshot](img/Screenshot 2023-01-30 at 21.55.57.png){: width="300"}
+
 Download Friendly Holdem today and start playing!
 
 ### **Main features**
