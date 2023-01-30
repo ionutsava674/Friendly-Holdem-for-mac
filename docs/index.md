@@ -2,12 +2,15 @@
 
 **_Your very accessible game of Texas Hold'em_**
 
+[_Download for macOS_](https://github.com/ionutsava674/Friendly-Holdem-for-mac/releases/download/v1.0/FriendlyHoldem.dmg)
+V 1.0
+
 ### **Overview**
 
 Friendly Holdem is an macOS app that allows users to play the popular game of Texas Holdem Poker.
 
-Written in SwiftUI, the app is designed to be user-friendly and accessible for VoiceOver users.
-The app utilizes GameCenter to provide a seamless gaming experience.
+Written in SwiftUI, the app utilizes GameCenter to provide a seamless gaming experience.
+The app is designed to be user-friendly and accessible for VoiceOver users.
 
 ![screenshot](img/s2.png){: width="480"}
 
@@ -28,7 +31,7 @@ Download Friendly Holdem today and start playing!
 
 The app is designed to bring the excitement of the casino to your fingertips, without the risk of real money. Enjoy the thrill of the game and improve your poker skills with our virtual bets.
 
-![screenshot](img/s1.png){: width="480"}    ![screenshot](img/s3.png){: width="480"}
+![screenshot](img/s1.png){: width="480"} ![screenshot](img/s3.png){: width="480"}
 
 I understand the importance of accessibility and have made sure that the app is fully compatible with VoiceOver. 
 This means that players who are visually impaired can enjoy the game just as much as anyone else.
