@@ -29,12 +29,19 @@ This means that players who are visually impaired can enjoy the game just as muc
 
 ### **Get the app**
 
-[_Download_](https://github.com/ionutsava674/Friendly-Holdem-for-mac/releases/download/v0.9/FriendlyHoldem.dmg)
+[_Download for macOS_](https://github.com/ionutsava674/Friendly-Holdem-for-mac/releases/download/v1.0/FriendlyHoldem.dmg)
+V 1.0
+
 <!--[_Get on the app store_](https://apps.apple.com/app/friendly-holdem/id1632308313)-->
 
 ### **Links**
 
 [Go to the code page](https://github.com/ionutsava674/Friendly-Holdem-for-mac)
+
+### **Helpful resources:**
+
+A special shoutout to Dan from tekeye.uk, for providing the free deck of cards:
+[https://tekeye.uk/playing_cards/svg-playing-cards](https://tekeye.uk/playing_cards/svg-playing-cards)
 
 ### **App Privacy**
 
