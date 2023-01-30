@@ -31,7 +31,7 @@ Download Friendly Holdem today and start playing!
 
 The app is designed to bring the excitement of the casino to your fingertips, without the risk of real money. Enjoy the thrill of the game and improve your poker skills with our virtual bets.
 
-![screenshot](img/s1.png){: width="380"} ![screenshot](img/s3.png){: width="380"}
+![screenshot](img/s1.png){: width="180"} ![screenshot](img/s3.png){: width="180"}
 
 I understand the importance of accessibility and have made sure that the app is fully compatible with VoiceOver. 
 This means that players who are visually impaired can enjoy the game just as much as anyone else.
