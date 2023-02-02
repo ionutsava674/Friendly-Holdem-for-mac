@@ -2,8 +2,8 @@
 
 **_Your very accessible game of Texas Hold'em_**
 
-[_Download for macOS _](https://github.com/ionutsava674/Friendly-Holdem-for-mac/releases/download/v1.1/FriendlyHoldem.dmg)
-V 1.0
+[_Download for macOS_](https://github.com/ionutsava674/Friendly-Holdem-for-mac/releases/download/v1.1/FriendlyHoldem.dmg)
+V 1.1
 
 ### **Overview**
 
@@ -38,8 +38,8 @@ This means that players who are visually impaired can enjoy the game just as muc
 
 ### **Get the app**
 
-[_Download for macOS _](https://github.com/ionutsava674/Friendly-Holdem-for-mac/releases/download/v1.1/FriendlyHoldem.dmg)
-V 1.0
+[_Download for macOS_](https://github.com/ionutsava674/Friendly-Holdem-for-mac/releases/download/v1.1/FriendlyHoldem.dmg)
+V 1.1
 
 <!--[_Get on the app store_](https://apps.apple.com/app/friendly-holdem/id1632308313)-->
 
