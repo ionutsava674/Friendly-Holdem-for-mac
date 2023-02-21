@@ -9,7 +9,8 @@ V 1.1
 
 Friendly Holdem is an macOS app that allows users to play the popular game of Texas Holdem Poker.
 
-Written in SwiftUI, the app utilizes GameCenter to provide a seamless gaming experience.
+Written for the swiftUI framework, the app utilizes GameCenter to provide a seamless gaming experience.
+
 The app is designed to be user-friendly and accessible for VoiceOver users.
 
 ![screenshot](img/s2.png){: width="480"}
@@ -18,9 +19,11 @@ One of the unique features of Friendly Holdem is that all bets are virtual, mean
 
 The app is completely free to download and use, and it does not include any advertisements. 
 The source code for the app is also available on Github, making it easy for developers to contribute to the project.
+
 The sounds and images used in Friendly Holdem were taken from the public domain, ensuring that the app is completely legal to use. 
 
-Overall, Friendly Holdem is a must-have app for anyone who loves the game of poker. 
+Overall, Friendly Holdem is a must-have app for anyone who loves the game of poker.
+
 With its user-friendly interface, challenging gameplay, and virtual betting system, it offers a unique and enjoyable gaming experience that you won't find anywhere else. And the fact that it's free, with no ads, and open-source makes it a top choice for anyone looking for a poker app. 
 
 ![screenshot](img/s4.png){: width="960"}
